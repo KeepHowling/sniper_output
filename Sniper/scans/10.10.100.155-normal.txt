@@ -1,0 +1,1 @@
+sniper -t 10.10.100.155 -m normal --noreport 

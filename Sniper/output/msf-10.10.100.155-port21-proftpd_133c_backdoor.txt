@@ -1,0 +1,6 @@
+RHOST => 10.10.100.155
+RHOSTS => 10.10.100.155
+LHOST => 127.0.0.1
+LPORT => 4444
+[-] 10.10.100.155:21 - Exploit failed: A payload has not been selected.
+[*] Exploit completed, but no session was created.

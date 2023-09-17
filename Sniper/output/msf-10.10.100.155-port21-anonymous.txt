@@ -1,0 +1,5 @@
+RHOST => 10.10.100.155
+RHOSTS => 10.10.100.155
+[+] 10.10.100.155:21      - 10.10.100.155:21 - Anonymous READ (220 (vsFTPd 3.0.3))
+[*] 10.10.100.155:21      - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed

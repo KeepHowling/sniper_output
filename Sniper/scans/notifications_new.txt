@@ -1,0 +1,17 @@
+[sn1persecurity.com] •?((¯°·._.• Started Sn1per scan: 10.10.100.155 [normal] (2023-09-15 03:35) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Started Sn1per scan: http://10.10.100.155:80 [webporthttp] (2023-09-15 03:41) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Spider URL change detected on 10.10.100.155 (2023-09-15 03:42) •._.·°¯))؟•
+http://10.10.100.155:80//manual
+[sn1persecurity.com] •?((¯°·._.• [+] [P2 - HIGH] Clear-Text Protocol - HTTP - URL: http://10.10.100.155:80/ - EVIDENCE: HTTP/1.1 200 OK (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• [+] [P2 - HIGH] Clear-Text Protocol - HTTP - URL: http://10.10.100.155:80/ - EVIDENCE: HTTP/1.1 200 OK (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• [+] [P5 - INFO] Server Header Disclosure - HTTP - URL: http://10.10.100.155:80// - EVIDENCE: Server: Apache/2.4.29 (Ubuntu) (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• [+] [P4 - LOW] SSH Version Disclosure -  - EVIDENCE: [+] 10.10.100.155:22      - SSH server version: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 ( service.version=7.6p1 openssh.comment=Ubuntu-4ubuntu0.3 service.vendor=OpenBSD service.family=OpenSSH service.product=OpenSSH service.cpe23=cpe:/a:openbsd:openssh:7.6p1 os.vendor=Ubuntu os.family=Linux os.product=Linux os.version=18.04 os.cpe23=cpe:/o:canonical:ubuntu_linux:18.04 service.protocol=ssh fingerprint_db=ssh.banner ) (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Finished Sn1per scan: http://10.10.100.155:80 [webporthttp] (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• [+] [P4 - LOW] SSH Version Disclosure -  - EVIDENCE: [+] 10.10.100.155:22      - SSH server version: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 ( service.version=7.6p1 openssh.comment=Ubuntu-4ubuntu0.3 service.vendor=OpenBSD service.family=OpenSSH service.product=OpenSSH service.cpe23=cpe:/a:openbsd:openssh:7.6p1 os.vendor=Ubuntu os.family=Linux os.product=Linux os.version=18.04 os.cpe23=cpe:/o:canonical:ubuntu_linux:18.04 service.protocol=ssh fingerprint_db=ssh.banner ) (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Started Sn1per full portscan: 10.10.100.155 [normal] (2023-09-15 03:43) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Port change detected on 10.10.100.155 (2023-09-15 03:44) •._.·°¯))؟•
+> 62337 
+[sn1persecurity.com] •?((¯°·._.• Finished Sn1per full portscan: 10.10.100.155 [normal] (2023-09-15 03:44) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Started Sn1per brute force: 10.10.100.155 [normal] (2023-09-15 03:44) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Finished Sn1per brute force: 10.10.100.155 [normal] (2023-09-15 03:50) •._.·°¯))؟•
+[sn1persecurity.com] •?((¯°·._.• Finished Sn1per scan: 10.10.100.155 [normal] (2023-09-15 03:50) •._.·°¯))؟•

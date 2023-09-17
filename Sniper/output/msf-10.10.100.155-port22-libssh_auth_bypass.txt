@@ -1,0 +1,7 @@
+RHOSTS => 10.10.100.155
+RHOST => 10.10.100.155
+LHOST => 127.0.0.1
+LPORT => 4444
+[*] 10.10.100.155:22 - Attempting authentication bypass
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed

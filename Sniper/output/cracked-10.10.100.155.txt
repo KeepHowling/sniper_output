@@ -1,0 +1,8 @@
+[21][ftp] host: 10.10.100.155   login: ftp   password: ftp
+[21][ftp] host: 10.10.100.155   login: anonymous   password: anonymous
+[21][ftp] host: 10.10.100.155   login: anonymous   password: sp@rta.com
+[21][ftp] host: 10.10.100.155   login: ftp   password: password
+[21][ftp] host: 10.10.100.155   login: ftp   password: password
+[21][ftp] host: 10.10.100.155   login: ftp   password: admin
+[21][ftp] host: 10.10.100.155   login: ftp   password: manager
+[21][ftp] host: 10.10.100.155   login: ftp   password: letmein

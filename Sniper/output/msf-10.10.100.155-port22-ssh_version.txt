@@ -1,0 +1,6 @@
+USER_FILE => /usr/share/brutex/wordlists/simple-users.txt
+RHOSTS => 10.10.100.155
+RHOST => 10.10.100.155
+[+] 10.10.100.155:22      - SSH server version: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 ( service.version=7.6p1 openssh.comment=Ubuntu-4ubuntu0.3 service.vendor=OpenBSD service.family=OpenSSH service.product=OpenSSH service.cpe23=cpe:/a:openbsd:openssh:7.6p1 os.vendor=Ubuntu os.family=Linux os.product=Linux os.version=18.04 os.cpe23=cpe:/o:canonical:ubuntu_linux:18.04 service.protocol=ssh fingerprint_db=ssh.banner )
+[*] 10.10.100.155:22      - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed

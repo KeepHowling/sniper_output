@@ -1,0 +1,1 @@
+sniper -t 10.10.100.155 -m nuke --noreport  -w ide --noreport --noloot -t 10.10.100.155 -b

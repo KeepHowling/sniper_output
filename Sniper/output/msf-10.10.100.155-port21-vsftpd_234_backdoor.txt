@@ -1,0 +1,8 @@
+RHOST => 10.10.100.155
+RHOSTS => 10.10.100.155
+LHOST => 127.0.0.1
+LPORT => 4444
+[*] No payload configured, defaulting to cmd/unix/interact
+[*] 10.10.100.155:21 - Banner: 220 (vsFTPd 3.0.3)
+[*] 10.10.100.155:21 - USER: 331 Please specify the password.
+[*] Exploit completed, but no session was created.
