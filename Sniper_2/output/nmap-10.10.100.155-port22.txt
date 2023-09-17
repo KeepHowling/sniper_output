@@ -1,0 +1,552 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-15 03:38 EDT
+NSE: Loaded 52 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 03:38
+Completed NSE at 03:38, 0.00s elapsed
+Initiating NSE at 03:38
+Completed NSE at 03:38, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 03:38
+Completed Parallel DNS resolution of 1 host. at 03:39, 16.52s elapsed
+Initiating SYN Stealth Scan at 03:39
+Scanning 10.10.100.155 [1 port]
+Discovered open port 22/tcp on 10.10.100.155
+Completed SYN Stealth Scan at 03:39, 0.07s elapsed (1 total ports)
+Initiating Service scan at 03:39
+Scanning 1 service on 10.10.100.155
+Completed Service scan at 03:39, 0.11s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against 10.10.100.155
+Retrying OS detection (try #2) against 10.10.100.155
+Initiating Traceroute at 03:39
+Completed Traceroute at 03:39, 0.06s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 03:39
+Completed Parallel DNS resolution of 2 hosts. at 03:39, 16.51s elapsed
+NSE: Script scanning 10.10.100.155.
+Initiating NSE at 03:39
+NSE: [ssh-run 10.10.100.155:22] Failed to specify credentials and command to run.
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:root
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:admin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:administrator
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:webadmin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:sysadmin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:netadmin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:guest
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:user
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:web
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:test
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:123456
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:12345
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:123456789
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:password
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:iloveyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:princess
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:12345678
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:1234567
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:abc123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:nicole
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:daniel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:monkey
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:babygirl
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:qwerty
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:lovely
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:654321
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:michael
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:jessica
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:111111
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:ashley
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:000000
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:iloveu
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:michelle
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:tigger
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:sunshine
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:chocolate
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:password1
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:soccer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:anthony
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:friends
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:purple
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:angel
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:butterfly
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:jordan
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:fuckyou
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:123123
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:justin
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:liverpool
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:football
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:loveme
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:secret
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:andrea
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: guest:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: user:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: web:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: test:jennifer
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: root:joshua
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: admin:joshua
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: administrator:joshua
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: webadmin:joshua
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: sysadmin:joshua
+NSE: [ssh-brute 10.10.100.155:22] Trying username/password pair: netadmin:joshua
+Completed NSE at 03:40, 91.05s elapsed
+Initiating NSE at 03:40
+Completed NSE at 03:40, 0.06s elapsed
+Nmap scan report for 10.10.100.155
+Host is up (0.047s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-auth-methods: 
+|   Supported authentication methods: 
+|     publickey
+|_    password
+| ssh-publickey-acceptance: 
+|_  Accepted Public Keys: No public keys accepted
+| ssh-hostkey: 
+|   2048 e2:be:d3:3c:e8:76:81:ef:47:7e:d0:43:d4:28:14:28 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC94RvPaQ09Xx+jMj32opOMbghuvx4OeBVLc+/4Hascmrtsa+SMtQGSY7b+eyW8Zymxi94rGBIN2ydPxy3XXGtkaCdQluOEw5CqSdb/qyeH+L/1PwIhLrr+jzUoUzmQil+oUOpVMOkcW7a00BMSxMCij0HdhlVDNkWvPdGxKBviBDEKZAH0hJEfexz3Tm65cmBpMe7WCPiJGTvoU9weXUnO3+41Ig8qF7kNNfbHjTgS0+XTnDXk03nZwIIwdvP8dZ8lZHdooM8J9u0Zecu4OvPiC4XBzPYNs+6ntLziKlRMgQls0e3yMOaAuKfGYHJKwu4AcluJ/+g90Hr0UqmYLHEV
+|   256 a8:82:e9:61:e4:bb:61:af:9f:3a:19:3b:64:bc:de:87 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBzKTu7YDGKubQ4ADeCztKu0LL5RtBXnjgjE07e3Go/GbZB2vAP2J9OEQH/PwlssyImSnS3myib+gPdQx54lqZU=
+|   256 24:46:75:a7:63:39:b6:3c:e9:f1:fc:a4:13:51:63:20 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ+oGPm8ZVYNUtX4r3Fpmcj9T9F2SjcRg4ansmeGR3cP
+|_ssh-run: Failed to specify credentials and command to run.
+| vulners: 
+|   cpe:/a:openbsd:openssh:7.6p1: 
+|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
+|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
+|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
+|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
+|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
+|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
+|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
+|     	SSH_ENUM	5.0	https://vulners.com/canvas/SSH_ENUM	*EXPLOIT*
+|     	PACKETSTORM:150621	5.0	https://vulners.com/packetstorm/PACKETSTORM:150621	*EXPLOIT*
+|     	EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	5.0	https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	*EXPLOIT*
+|     	EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	5.0	https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	*EXPLOIT*
+|     	EDB-ID:45939	5.0	https://vulners.com/exploitdb/EDB-ID:45939	*EXPLOIT*
+|     	EDB-ID:45233	5.0	https://vulners.com/exploitdb/EDB-ID:45233	*EXPLOIT*
+|     	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+|     	CVE-2018-15473	5.0	https://vulners.com/cve/CVE-2018-15473
+|     	1337DAY-ID-31730	5.0	https://vulners.com/zdt/1337DAY-ID-31730	*EXPLOIT*
+|     	CVE-2021-41617	4.4	https://vulners.com/cve/CVE-2021-41617
+|     	CVE-2020-14145	4.3	https://vulners.com/cve/CVE-2020-14145
+|     	CVE-2019-6110	4.0	https://vulners.com/cve/CVE-2019-6110
+|     	CVE-2019-6109	4.0	https://vulners.com/cve/CVE-2019-6109
+|     	CVE-2018-20685	2.6	https://vulners.com/cve/CVE-2018-20685
+|     	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
+|     	MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-	0.0	https://vulners.com/metasploit/MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-	*EXPLOIT*
+|_    	1337DAY-ID-30937	0.0	https://vulners.com/zdt/1337DAY-ID-30937	*EXPLOIT*
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%), Linux 2.6.32 (93%), Linux 2.6.39 - 3.2 (93%), Linux 3.1 - 3.2 (93%), Linux 3.2 - 4.9 (93%), Linux 3.7 - 3.10 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 42.368 days (since Thu Aug  3 18:51:14 2023)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   46.51 ms 10.11.0.1
+2   47.25 ms 10.10.100.155
+
+NSE: Script Post-scanning.
+Initiating NSE at 03:40
+Completed NSE at 03:40, 0.00s elapsed
+Initiating NSE at 03:40
+Completed NSE at 03:40, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 128.22 seconds
+           Raw packets sent: 55 (4.040KB) | Rcvd: 40 (3.064KB)
